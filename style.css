@@ -1,64 +1,23 @@
-html { 
-  background: white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 50%;
-  background-color: white;
+.image-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
 }
-
-.outer, .outer2 {
-    display: table;
+.image-container .after {
     position: absolute;
-    height: 100%;
-    width: 100%;
+    top: 0;
+    left: 0;
+    width: 34rem;
+    height: 34rem;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
 }
 
-.middle, .middle2 {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.overlay {
-  margin-left: auto;
-  margin-right: auto; 
-  width: 50em;
-  background: black;
-  height: 100%;
-  opacity: 0.7;
-	padding-top: 0;
-	padding-bottom: 0;
-}
-
-.overlay2 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50em;
-    background-color: indigo;
-    opacity: 0.7;
-    padding-right: 4px;
-}
-
-.medusa {
-  width: 30em;
-  margin: 0 auto;
-  padding-top: 80px;
-}
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-}
-
-h1 {
-  height: 90px;
-  line-height: 90px;
-  text-align: center;
-  font-size: 500%;
-  color:white;
-  
+img {
+    width:34rem;
+    height: 34rem;
 }
